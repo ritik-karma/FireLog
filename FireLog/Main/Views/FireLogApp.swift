@@ -11,7 +11,7 @@ import SwiftUI
 struct FireLogApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LoginView()
         }
     }
 }
