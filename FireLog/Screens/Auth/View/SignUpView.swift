@@ -64,12 +64,9 @@ struct SignUpView: View {
                     }
                     Divider()
                         
-                    
                 }
-
                 
-                
-                Spacer()
+             
                 
                 
                 
@@ -79,8 +76,10 @@ struct SignUpView: View {
                     Text("Create Account")
                 }
                 .buttonStyle(CapsuleButtonStyle())
+                Spacer()
             }
             .padding()
+            
                              
         }
         .navigationTitle("Set up your account")
